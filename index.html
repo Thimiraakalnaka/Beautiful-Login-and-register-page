@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    
+    <header>
+        <h2 class="logo">logo</h2>
+        <nav class="navigation">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">services</a>
+            <a href="#">contact</a>
+            <button class="btnlogin-popup">login</button>
+        </nav>
+
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register">
+                    <p>
+                        I don't have an account? <a class="register-link" href="#">Register</a>
+                    </p>
+                </div>
+                
+            </form>
+        </div>
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="name" required>
+                    <label>Name</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="call"></ion-icon>
+                    </span>
+                    <input type="Contact" required>
+                    <label>Contact</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="pin"></ion-icon>
+                    </span>
+                    <input type="address" required>
+                    <label>Address</label>
+                </div>
+                
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="register">
+                    <p>
+                        I already have an account? <a class="login-link" href="#">Login</a>
+                    </p>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
